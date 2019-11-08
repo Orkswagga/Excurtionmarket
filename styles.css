@@ -1,3 +1,39 @@
 input {
     display: block;
 }
+::-webkit-input-placeholder {color:#c0392b;}
+body {
+    background-color:rgb(193, 221, 138)
+}
+h1 {
+    color:blue;
+}
+
+.h1 {
+    color:red;
+}
+
+button {
+    color:rgb(109, 109, 13)
+}
+::-webkit-input-placeholder {
+    text-indent: 0px;
+    transition: text-indent 300ms;
+}   
+:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transform: translate(70%);
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+  }
+  button {
+      background-color:yellow;
+      -webkit-text-size-adjust: auto;
+      color:black;
+      padding: 20px 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+/* https://codepen.io/KamilDyrek/pen/aXebmO */
